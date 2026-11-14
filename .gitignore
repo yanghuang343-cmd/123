@@ -1,0 +1,12 @@
+.auth/
+runtime/
+runs/
+app/runs/
+app/node_modules/
+app/config/
+app/data/
+*.log
+*.before-*
+商品候选资料.json
+来源状态复核.json
+TikTok待上架.json

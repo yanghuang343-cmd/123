@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce-auto-listing-starter",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "preflight": "node src/preflight.mjs",
+    "run": "node src/miaoshou-flow.mjs --check-setup",
+    "miaoshou:check": "node src/miaoshou-flow.mjs --check-setup"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "1.65.0"
+  }
+}
